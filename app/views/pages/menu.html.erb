@@ -1,2 +1,37 @@
-<h1>Pages#menu</h1>
-<p>Find me in app/views/pages/menu.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="card col m6 s12">
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a href="#lunch">Lunch</a></li>
+          <li class="tab"><a href="#dinner">Dinner</a></li>
+          <li class="tab"><a href="#kids">Kids</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="lunch"><%= link_to "Lunch Menu", asset_path("GoodwoodLunchMenu.pdf") %></div>
+        <div id="dinner"><%= link_to "Dinner Menu", asset_path("GoodwoodDinnerMenu.pdf") %></div>
+        <div id="kids"><%= link_to "Kids Menu", asset_path("Kids.pdf") %></div>
+      </div>
+    </div>
+
+    <div class="card col m6 s12">
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a href="#carryout">Carry Out</a></li>
+          <li class="tab"><a href="#catering">Catering</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="carryout"><%= link_to "Carry Out Menu", asset_path("GoodwoodCarryoutMenu.pdf") %></div>
+        <div id="catering"><%= link_to "Catering Menu", asset_path("GoodwoodCateringMenu.pdf") %></div>
+      </div>
+    </div>
+  </div>
+</div>
