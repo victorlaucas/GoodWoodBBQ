@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def goodwood_university
+  end
 end
