@@ -49,3 +49,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'materialize-sass', '~> 0.100.2'
+gem 'newrelic_rpm'
