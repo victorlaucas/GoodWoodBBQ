@@ -2,16 +2,17 @@
 @import "materialize/extras/nouislider";
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
+/*App*/
+body {
+  background-color: #CBC7BC;
+}
+
 .footer-right {
   text-align: right;
 }
 
 .footer-left {
   text-align: left;
-}
-
-body {
-  background-color: #CBC7BC;
 }
 
 .nav-bar {
@@ -29,4 +30,11 @@ body {
 
 .goodwood-img img {
   width: 50%;
+}
+
+/*Home Page*/
+
+.font-carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
