@@ -23,14 +23,14 @@
       <p class="white-text">This is your fourth panel</p>
     </div>
   </div> -->
-  <div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="<%= image_tag("good1.jpg")%>"></a>
-    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+
+  <div class="carousel carousel-slider font-carousel">
+    <a class="carousel-item" href="#one!"><img <%= image_tag("good1.jpg")%>></a>
+    <a class="carousel-item" href="#two!"><img <%= image_tag("good2.jpg")%>></a>
+    <a class="carousel-item" href="#three!"><img <%= image_tag("good3.jpg")%>></a>
+
   </div>
   <div class="center-align">
-    <%= link_to image_tag("1.jpg"), root_path %>
     <%= link_to image_tag("2.jpg"), location_path %>
     <%= link_to image_tag("newsbanner.jpg"), root_path %>
     <%= link_to image_tag("4.jpg"), root_path %>
