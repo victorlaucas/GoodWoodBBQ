@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :caterings
   root to: 'pages#home'
 
   get 'menu', to: 'pages#menu'
