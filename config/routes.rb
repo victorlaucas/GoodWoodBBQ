@@ -15,6 +15,10 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
 
   get 'university', to: 'pages#goodwood_university'
+  
+  get 'cater', to: 'pages#catering'
+  
+  get 'employment', to: 'pages#employment'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

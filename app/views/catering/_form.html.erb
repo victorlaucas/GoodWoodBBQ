@@ -1,0 +1,63 @@
+<%= form_with(model: catering, local: true) do |form| %>
+
+  <%# if catering.errors.any? %>
+    <%#catering.errors.full_messages.each do |error| %>
+      <%# js add_gritter(error, title: "Error", sticky: false) %>
+    <%# end %>
+  <%# end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :catering_name, placeholder: "John Doe" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :catering_email, placeholder: "example@test.com" %>
+  </div>
+  
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone, id: :catering_phone, placeholder: "2024561111" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :address %>
+    <%= form.text_field :address, id: :catering_address, placeholder: "123 street" %>
+  </div>  
+
+  <div class="field">
+    <%= form.label :zip %>
+    <%= form.text_field :zip, id: :catering_zip, placeholder: "84095" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :city %>
+    <%= form.text_field :city, id: :catering_city, placeholder: "Salt Lake City" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :state %>
+    <%= form.text_field :state, id: :catering_state, placeholder: "Salt Lake City" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :event %>
+    <%= form.text_field :event, id: :catering_event, placeholder: "Wedding" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :guests %>
+    <%= form.text_field :guests, id: :catering_guests, placeholder: "Wedding" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date %>
+    <%= form.text_field :date, id: :catering_date, placeholder: "Wedding" %>
+  </div>
+
+
+  <div class="actions">
+    <%= form.submit "Submit", class: "waves-effect waves-light btn" %>
+  </div>
+<% end %>

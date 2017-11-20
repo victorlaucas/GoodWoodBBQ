@@ -22,4 +22,10 @@ class PagesController < ApplicationController
 
   def goodwood_university
   end
+
+  def catering
+  end
+
+  def employment
+  end
 end
