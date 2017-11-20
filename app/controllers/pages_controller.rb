@@ -25,4 +25,7 @@ class PagesController < ApplicationController
 
   def catering
   end
+
+  def employment
+  end
 end
