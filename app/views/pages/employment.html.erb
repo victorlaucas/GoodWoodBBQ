@@ -1,1 +1,75 @@
-<h1>Hi from employment</h1>
+<div class="container">
+  <h1>Employment</h1>
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="name" type="text" class="validate">
+          <label for="name">Name</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="address" type="text" class="validate">
+          <label for="address">Address</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="city" type="text" class="validate">
+          <label for="city">City</label>
+        </div>      
+        <div class="input-field col s3">
+          <input id="zip" type="text" class="validate">
+          <label for="zip">Zip Code</label>
+        </div>        
+        <div class="input-field col s3">
+          <input id="state" type="text" class="validate">
+          <label for="state">State</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="phone" type="text" class="validate">
+          <label for="phone">Phone</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="reference" type="text" class="validate">
+          <label for="reference">Referred By</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="position" type="text" class="validate">
+          <label for="position">Position</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <label for="date">Date you can start</label>
+          <input id="date" type="text" class="datepicker">
+          <script type="text/javascript">
+            $('.datepicker').pickadate({
+              selectMonths: true, // Creates a dropdown to control month
+              selectYears: 15, // Creates a dropdown of 15 years to control year,
+              today: 'Today',
+              clear: 'Clear',
+              close: 'Ok',
+              closeOnSelect: false // Close upon selecting a date,
+            });
+          </script>
+        </div>
+
+
+    </form>
+  </div>
+</div>  
