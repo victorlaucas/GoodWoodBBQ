@@ -98,9 +98,14 @@ body {
    /* icon prefix focus color */
    .input-field .prefix.active {
      color: #000;
+   }
    
    /* datepicker */
    .datepicker input {
      color: #000;
    }
-}
+
+  /*form color when grayed out*/
+   .form-color label{
+    color: #000;
+   }

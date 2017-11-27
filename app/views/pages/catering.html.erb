@@ -77,8 +77,10 @@
 
       <div class="row">
         <div class="col s6">
-          <label for="date">Date</label>
-          <input id="date" type="text" class="datepicker">
+          <div class="form-color">
+            <label for="date">Date</label>
+            <input id="date" type="text" class="datepicker">
+          </div>
           <script type="text/javascript">
             $('.datepicker').pickadate({
               selectMonths: true, // Creates a dropdown to control month
@@ -92,8 +94,10 @@
         </div>
      
         <div class="col s6">
-          <label for="time">Time</label>
-          <input type="text" class="timepicker">
+          <div class="form-color">
+            <label for="time">Time</label>
+            <input type="text" class="timepicker">
+          </div>  
           <script type="text/javascript">
             $('.timepicker').pickatime({
               default: 'now', // Set default time: 'now', '1:30AM', '16:30'
