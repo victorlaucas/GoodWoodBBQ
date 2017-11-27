@@ -54,6 +54,19 @@ body {
     }
   }
 
+/*menu*/
+@media #{$small-and-down} {
+    .card.large {
+      height: auto;
+    }
+    .card.large .card-content {
+      height: auto;
+    }
+    .card.large .card-action {
+      position: relative;
+    }
+  }
+
 
 
 
