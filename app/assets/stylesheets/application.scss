@@ -42,15 +42,18 @@ body {
 }
 
 /*Uni*/
-/*.card.medium {
-  height: auto;
-}
-.card.medium .card-content {
-  height: auto;
-}
-.card.medium .card-action {
-  position: relative;
-}*/
+@media #{$small-and-down} {
+    .card.medium {
+      height: auto;
+    }
+    .card.medium .card-content {
+      height: auto;
+    }
+    .card.medium .card-action {
+      position: relative;
+    }
+  }
+
 
 
 
